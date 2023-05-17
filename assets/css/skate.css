@@ -1,0 +1,110 @@
+.bg-custom{
+    background-color: #e9e9e9;
+    
+}
+.navcolor{
+    color: aqua;
+}
+.list-group{
+    border: none;
+}
+.list-group-item{
+    border: none;
+}
+.linkcolor a{
+   color: black;
+   text-decoration: none;
+   font-size: large;
+   font-weight: bold;
+   font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(70, 70, 70);
+    font-weight:300 !important; 
+}
+.bgcolorcrs{
+    background-color: rgb(240, 240, 240);
+}
+.btn-cust{
+    background-color: rgba(56, 2, 128, 0.863);
+    color: rgb(207, 207, 207);
+}
+.maxh img{
+    max-height: 200px;
+}
+.txtprice{
+    color: rgba(56, 2, 128, 0.863);
+        
+}
+.buttoncost{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(90, 0, 90);
+    outline: 2px solid rgba(56, 2, 128, 0.863);
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    transform: color 1s;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttoncost:hover{
+    color: rgb(255, 251, 255);
+   
+}
+.buttoncost::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:-24px;
+    width: 0;
+    height: 100%;
+    background-color:rgba(56, 2, 128, 0.863);
+    transform:skewX();
+    z-index: -1;
+    transition: 1s;
+   
+}
+.buttoncost:hover::before{
+    width:150%;
+}
+.buttoncost:active{
+    transform: translateY(3px);
+    box-shadow: 0 4px 0  #ffffff;
+}
+.txtfootercolor{
+    color: rgb(219, 219, 219);
+}
+.instacolor:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+.hover-1{
+    line-height: 1.2em;
+    color: #0000;
+    text-shadow: 
+    0 0 #25186c,
+    0 1.2em #1095c1;
+    overflow: hidden;
+    transition: .3s;
+}
+.hover-1:hover{
+    text-shadow:
+    0 -1.2em #000,
+    0 0 #a52121;
+}
+.heartbeat{
+    font-size: 16px;
+    color: rgb(44, 9, 48);
+    animation: heartbeat .50s infinite alternate;
+    transform-origin: center;
+}
+@keyframes heartbeat{
+    to { transform: scale(1.4);}
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgba(54, 4, 54, 0.212);
+    border-color: #60104f4d;
+}
