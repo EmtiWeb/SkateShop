@@ -8,7 +8,7 @@ $(document).ready(function() {
     var all_panels = $('.skate-accordion > li > ul').hide();
 
     $('.skate-accordion > li > a').click(function() {
-        console.log('Hello world!');
+        console.log('');
         var target =  $(this).next();
         if(!target.hasClass('active')){
             all_panels.removeClass('active').slideUp();
