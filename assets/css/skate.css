@@ -144,6 +144,7 @@ p{
     color: #969696;
     display: block;
     transition: 0.3s;
+    cursor: pointer;
   }
   
   .sidenav a:hover {
